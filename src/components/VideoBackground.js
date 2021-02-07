@@ -21,7 +21,7 @@ export default class Home extends Component {
                 <h1 className="background-title">Visit <nobr >Mars</nobr> in just<br/>two clicks</h1>
                 <div className="desc">Explore Mars with<br/> NASA</div>
             <Fade left big cascade>
-                <LinkButton  link="/" text="Get Started" className="btn-link">Замовити</LinkButton>
+                <LinkButton  link="rover-section" text="Get Started" className="btn-link">Замовити</LinkButton>
             </Fade>
             </div>
         </Fade>

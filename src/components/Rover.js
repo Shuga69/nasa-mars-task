@@ -59,7 +59,7 @@ class Rover extends Component {
     
   }
 
-  // when user hits "Go"
+  // when user hits "Get photos"
   handleSubmit = (event) => {
     this.setState({
         visible : 2,
@@ -113,14 +113,14 @@ class Rover extends Component {
       );
     } else { 
           return  (
-              <div className="photo-section">
+              <div  className="photo-section">
                 <div className="photo-album">
                     
                     {
                     this.state.responsePhotos&&this.state.responsePhotos.slice(0, this.state.visible).map((image, index) => (
                         <div  className = "photo-card ">
          
-                        <img key={index} className="mars-photo" src={image.img_src} width="300px" height="300px"/>
+                        <img id="photo" key={index} className="mars-photo" src={image.img_src} width="300px" height="300px"/>
                         </div>
                          )) }
                   
@@ -240,8 +240,8 @@ class Rover extends Component {
         
         
         
-        <LinkButton text="Get photos" onClick={this.handleSubmit}/>
-        <p >{this.state.loading}</p>
+        <LinkButton link="photo" text="Get photos" onClick={this.handleSubmit}/>
+        <p>{this.state.loading}</p>
         
      
 
