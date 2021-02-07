@@ -1,0 +1,89 @@
+.slider{
+    width: 90%;
+   
+    margin-bottom: 10%;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+  }
+  
+  
+  .slider-main-div{
+    width:300px!important;
+  }
+  .range-span{
+    font-size: 22px;
+    
+  }
+  
+  .price-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+    
+  }
+  
+  /* ////////////////////////////// */
+  .ant-slider-rail {
+    height: 17px !important;
+    border-radius: 25px !important;
+    border: 1px solid #1b262c !important;
+    background-color: white !important;
+  }
+  .ant-slider-track {
+    height: 17px !important;
+    background-color: #1b262c !important;
+    border-radius: 25px !important; 
+  }
+  .ant-slider-handle {
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: -10px !important;
+    border: solid 2px #1b262c !important;
+   }
+   .ant-slider-handle-dragging.ant-slider-handle-dragging.ant-slider-handle-dragging {
+    border-color: #0f4c75 !important;
+    -webkit-box-shadow: 0 0 0 5px #bbe1fa38 !important;
+    box-shadow: 0 0 0 5px #bbe1fa38 !important;
+  }
+  .ant-slider-handle:focus {
+    border-color: #0f4c75 !important;
+    outline: none;
+    -webkit-box-shadow: 0 0 0 5px #bbe1fa38 !important;
+            box-shadow: 0 0 0 5px #bbe1fa38 !important;
+  }
+  .ant-slider-handle.ant-tooltip-open {
+    border-color: #1b262c !important;
+  }
+  
+  .ant-input-number {
+    width: 25% !important;
+    padding: 5px 17px !important;
+    color: rgba(0, 0, 0, 0.95) !important;
+    font-size: 20px !important;
+    background-color: white !important;
+    height: 50px !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    border: 2px solid #1b262c86 !important;
+    border-radius: 5px !important;
+  }
+  .ant-input-number:focus,
+  .ant-input-number-focused {
+    border-color: #1b262c !important;
+    border-right-width: 5px !important;
+    -webkit-box-shadow: 0 0 0 2px  #1b262c21 !important;
+            box-shadow: 0 0 0 2px  #1b262c21 !important;
+  }
+  .ant-input-number:hover {
+    border-color: #1b262c !important;
+    border-right-width: 5px !important;
+  }
+  .ant-input-number-handler-wrap {
+  display: none !important;
+  }
